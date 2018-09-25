@@ -29,6 +29,7 @@
   args:
     executable: /bin/bash
   ignore_errors: true
+  changed_when: false
   register: samba_user_exist_check
 
 - name: Add user to samba
