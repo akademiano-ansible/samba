@@ -72,9 +72,9 @@
     path: /var/www
     owner: webdev
     group: www-data
-    mode: u=rwX,g=rwX,o=-r-w-x 
+    mode: 0750
     state: directory
-    recurse: yes
+    recurse: no
 
 - name: Add samba share www
   become: yes
