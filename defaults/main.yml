@@ -1,3 +1,5 @@
 ---
 # defaults file for samba
-samba_web_user: webdev
+samba_shares: []
+#  - name:
+#    path:
